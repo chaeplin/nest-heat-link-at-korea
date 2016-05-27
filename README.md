@@ -75,7 +75,7 @@ ATI|AQS 33.160|![image](./pics/g3.jpg)
 
 * 참고1 https://en.wikipedia.org/wiki/Switch
 * 참고2 https://en.wikipedia.org/wiki/Relay
-* 참고3 전원선 활성(L), 중성(N) 확인 http://blog.naver.com/pkw00/220333975771
+* 참고3 전원선 활성(L), 중성(N) 확인 http://blog.naver.com/pkw00/220333975771 L/N 설명 http://blog.naver.com/pkw00/220181730996
 * 참고4 전원색상 http://m.blog.naver.com/k5808151/50105866676
 * 참고5 https://www.physicsforums.com/threads/what-happens-exactly-when-ac-neutral-and-active-lines-are-switched.445490/
 * 참고6 http://www.controlmart.co.kr/shop/sub/view_product.php?Code=ati-aqs33-160a&CatNo=12719
