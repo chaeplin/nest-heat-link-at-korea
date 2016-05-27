@@ -3,7 +3,9 @@
 
 지인의 집에 지인과 히트링크를 설치해보면서 이런건 설명 안 해주나 했던것들
 
+
 1. Live / Neutral (L/N)이 뭐냐
+
 2. 단상 3선식 케이블의 색상과 의미(가정집은 대개 단상 3선식)
 
 먼저 네스트 히트 링크를 보면 2/3 세대로 구분되고, 3세대가 2세대에 비해 릴레이 하나와/OpenTherm(유럽 보일러 접속 규격인듯) 단자가 추가 되었는데, OpenTherm는 모르므로 생략. 3세대는 난방(Heating)과 온수(Hot water) 조절이 되는듯 하지만, 온수에 대한 정보가 부족해서 난방(단자 1/2/3)만 연결.
@@ -37,26 +39,39 @@ C  | Common | NC 또는 NO에 연결됨 | 2 | 5
   ---|---
 ![image](./pics/03.heat2ndsch.png) | ![image](./pics/spdt.png)
 
-아두이노 예제 |
----|
-![image](./pics/Controlling-high-voltage-home-appliances-using-the-TV-Remote-Circuit-Schematics.png)|
+아두이노 예제 | 테스터기
+---|---
+![image](./pics/Controlling-high-voltage-home-appliances-using-the-TV-Remote-Circuit-Schematics.png)|![image](./pics/tester.png)
 
 네스트는 난방이 필요한 경우 2번 단자와 3번 단자를 연결만 해주는 것임. 즉 1/2/3, 4/5/6에 온/오프가 필요한 케이블을 연결해야 함.
 
 L/N, 색상에 대한 의문은 아래 참고의 링크에 잘 설명 되어 있으나, 멀티미터를
 이용하여 확인하는 것이 최선으로 생각됨(색상이 잘못 배열 되어 있는 경우도 있고, L/N 바꾸어도 큰일은 없지만.. -->  참고5).
-또는 아래의 테스터기를 이용해도(하나 살려구요. 멀티미터로 테스트 하는것도 귀....)
-테스터기 |
----|
-![image](./pics/tester.png)|
+또는 테스터기를 이용해도(하나 살려구요. 멀티미터로 테스트 하는것도 귀....)
 
+## 확인된 3선 2위치식 세대조절 밸브 모터식구동기(3개 호환됨/밸브사이즈/전원/구동연결 : 참고6)
 
-*확인된 3선 2위치식 세대조절 밸브 모터식구동기(3개 호환됨/밸브사이즈/전원/구동연결 : 참고6)
 제조 | 품명 | 그림
 ---|---|---
 SIMENS|SSK21|![image](./pics/g1.jpg)
 Honeywell|MC2000|![image](./pics/g2.jpg)
 ATI|AQS 33.160|![image](./pics/g3.jpg)
+
+##### 구동기는 3개의 선이 있고, 2개는 220V에 연결, 동작은 220V중 활성(L) 라인으로 스위치가 표시된 라인에 연결해주면 구동기의 밸브가 위로 올라가면서 온수가 흐르게 됨.
+
+#### 구동기와 히트링크의 연결은 스위치가 표시된 라인을 3번 라인에, 220V 활성 라인을 2번에 연결해 주면 되는데, 히트링크도 220V전원을 사용함으로, 220V L 라인에서 1) 히트링크 L 2) 히트링크 2 3) 구동기 L로 연결되고 220V N 라인은 1) 히트링크 N 2) 구동기 N으로 연결.
+
+
+![image](./pics/sch.png)
+
+
+
+
+
+
+
+
+
 
 * 참고1 https://en.wikipedia.org/wiki/Switch
 * 참고2 https://en.wikipedia.org/wiki/Relay
