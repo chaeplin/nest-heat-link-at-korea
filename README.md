@@ -66,7 +66,18 @@ ATI|AQS 33.160|![image](./pics/g3.jpg)
 
 
 
+##### 전선 연결시 주의사항.
+* 전원 단자함의 브레이커 내리고 작업
+* 작업시 절연 장갑꼭 끼실 것
+* 히트링크 각 단자 체결용 나사와 구멍이 상당히 작음
+* 전선이 얇은 여러 가닥으로 되어 있는 경우, 히트링크 연결은 아래 그림과 같이 단일의 굵은 전선을 연결해서(히트링크와 체결이 약하게 되고 빠지기도) 
+* 전선의 연결은 아래 그림의 커넥터나 접속자 사용(커넥터는 돌려서 체결하는 유형, 접속자는 상단을 니퍼로 누르는 유형)
 
+![image](./pics/c1.png)|![image](./pics/c2.png)|![image](./pics/c3.png)
+---|---|---
+
+* https://www.youtube.com/watch?v=dJsZFrPQOLc
+* https://www.youtube.com/watch?v=nMrNdYFxLWE
 
 
 
